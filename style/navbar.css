@@ -1,9 +1,9 @@
 .nav-link {
-  color: #af9a63!important;
+  color: #af9a63 !important;
 }
 
 .nav-links .active {
-  color: #000000!important;
+  color: #000000 !important;
 }
 
 .nav-links .active::before {
