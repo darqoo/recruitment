@@ -43,7 +43,7 @@
 .carousel-indicators>li::before {
   position: relative;
   top: 0;
-  left: 0;1
+  left: 0;
   display: block;
   width: 0;
   height: 0;
@@ -60,17 +60,17 @@
 
 .carousel-indicators .active {
   order: 1 !important;
-  opacity: 1!important;
+  opacity: 1 !important;
 }
 
 .carousel-indicators .active+li {
   order: 2 !important;
-  opacity: 0.33!important;
+  opacity: 0.33 !important;
 }
 
 .carousel-indicators .active+li+li {
   order: 3 !important;
-  opacity: 0.33!important;
+  opacity: 0.33 !important;
 }
 
 .carousel-caption {
@@ -95,10 +95,9 @@
 }
 
 @media (min-width: 992px) {
-.carousel {
-  margin-top: unset;
-}
-
+  .carousel {
+    margin-top: unset;
+  }
   .carousel-indicators {
     top: 0%;
     left: 3%;
