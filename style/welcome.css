@@ -1,0 +1,51 @@
+.welcome_bg {
+  background-image: url(./../images/welcome_bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: auto;
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 99
+}
+
+.welcome_bg h1, .welcome_bg p {
+  color: #ffffff;
+}
+
+.welcome_bg h2 {
+  color: #af9a63;
+}
+
+@media (min-width: 576px) {
+  .welcome_bg {
+    background-image: url(./../images/welcome_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 105vw;
+    max-height: 760px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .welcome_bg {
+    margin-top: -60px;
+        height: 70vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .welcome_bg {
+    height: 58vw;
+    max-height: 770px;
+    margin-top: -60px;
+  }
+}
