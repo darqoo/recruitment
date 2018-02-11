@@ -1,5 +1,6 @@
 .navbar {
   position: fixed;
+  z-index: 999;
 }
 
 .logo img {
