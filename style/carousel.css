@@ -1,0 +1,157 @@
+.carousel {
+  margin-top: 75px;
+}
+
+.carousel-inner {
+  z-index: -1;
+}
+
+.ind-style>li {
+  color: #af9a63;
+}
+
+.carousel-indicators {
+  flex-direction: column;
+  top: 5%;
+  bottom: unset;
+  left: 2%;
+  position: absolute;
+  right: unset;
+  bottom: unset;
+  justify-content: unset;
+  margin-right: unset;
+  margin-left: unset;
+}
+
+.carousel-indicators>li {
+  background-color: transparent;
+  text-indent: 0px;
+  height: 42px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.carousel-indicators>li::after {
+  position: absolute;
+  bottom: 17px;
+  left: 0px;
+  width: 100%;
+  content: "";
+  width: 300px;
+}
+
+.carousel-indicators>li::before {
+  position: relative;
+  top: 0;
+  left: 0;1
+  display: block;
+  width: 0;
+  height: 0;
+  content: "";
+}
+
+.carousel-indicators .active {
+  background-color: transparent;
+}
+
+.carousel-indicators .active::after {
+  border-bottom: 2px solid #af9a63;
+}
+
+.carousel-indicators .active {
+  order: 1 !important;
+  opacity: 1!important;
+}
+
+.carousel-indicators .active+li {
+  order: 2 !important;
+  opacity: 0.33!important;
+}
+
+.carousel-indicators .active+li+li {
+  order: 3 !important;
+  opacity: 0.33!important;
+}
+
+.carousel-caption {
+  right: unset;
+  bottom: unset;
+  left: 8%;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: left;
+  top: 11%;
+  width: 310px;
+}
+
+.carousel-caption h5 {
+  color: #000000;
+  font-size: 2em;
+}
+
+.carousel-caption p {
+  font-size: 1.5em;
+  color: #af9a63;
+}
+
+@media (min-width: 992px) {
+.carousel {
+  margin-top: unset;
+}
+
+  .carousel-indicators {
+    top: 0%;
+    left: 3%;
+  }
+  .carousel-indicators>li {
+    height: 64px;
+    font-size: 23px;
+  }
+  .carousel-indicators>li::after {
+    bottom: -3px;
+    left: 0px;
+    width: 405px;
+  }
+  .carousel-caption {
+    left: 10%;
+    padding-top: 0;
+    padding-bottom: 0;
+    top: 14%;
+    width: 380px;
+  }
+  .carousel-caption h5 {
+    font-size: 2.8em;
+  }
+  .carousel-caption p {
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 1480px) {
+  .carousel-indicators {
+    top: 4.5%;
+    left: 3.5%;
+  }
+  .carousel-indicators>li {
+    height: 53px;
+    font-size: 23px;
+  }
+  .carousel-indicators>li::after {
+    bottom: -14px;
+    left: 0px;
+    width: 405px;
+  }
+  .carousel-caption {
+    left: 7.5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    top: 13%;
+    width: 550px;
+  }
+  .carousel-caption h5 {
+    font-size: 3.8em;
+  }
+  .carousel-caption p {
+    font-size: 2.8em;
+  }
+}
